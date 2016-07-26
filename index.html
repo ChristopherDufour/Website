@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>CDufour.com</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/jquery-ui-modified.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+	<link rel="stylesheet" href="/blink.css">
+	<link rel="stylesheet" href="/index.css">
+	<script>
+		$( function() {
+			$( "#tabs" ).tabs();
+		} );
+	</script>
+</head>
+<body>
+	<p class='title'>> CDufour.com<span class="blink_text">_</span></p>
+	<div id="tabs">
+		<ul>
+			<li><a href="#tabs-1">Home</a></li>
+			<li><a href="#tabs-2">Projects</a></li>
+			<li><a href="#tabs-3">Contact</a></li>
+		</ul>
+		<div id="tabs-1">
+			<p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+		</div>
+		<div id="tabs-2">
+			<p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+		</div>
+		<div id="tabs-3">
+			<p>LinkedIn: <a href="https://ca.linkedin.com/in/ChrisRDufour">https://ca.linkedin.com/in/ChrisRDufour</a></p>
+			<p>GitHub: <a href="https://github.com/christopherdufour">https://github.com/christopherdufour</a></p>
+			<p>Email: <span id="email">
+				<button onclick="var s='puevf@pqhsbhe.pbz';s=s.replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<='Z'?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});$(email).html($('<a>').attr('href', 'mailto:' + s).text(s));">Click to reveal</button></span>		
+			</p>
+
+		</div>
+	</div>
+
+
+</body>
+</html>

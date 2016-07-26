@@ -1,0 +1,19 @@
+body {
+	color: white;
+	background: black;
+}
+
+h1, p, a, button {
+	font-family: Courier;
+}
+
+.title {
+	font-size:20px;
+}
+
+button {
+	background: none;
+	border:1px solid white;
+	color: white;
+	cursor: pointer;
+}
